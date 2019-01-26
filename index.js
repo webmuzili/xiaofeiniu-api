@@ -1,4 +1,4 @@
-// 小肥牛扫码点餐系统API的子系统
+// 小肥牛扫码点餐系统API子系统
 const PORT=8090;
 const exprss=require('express');
 
