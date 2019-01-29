@@ -27,3 +27,6 @@ app.use('/admin/category',categoryRouter);
 
 const adminRouter=require('./routers/admin/admin')
 app.use('/admin',adminRouter);
+
+const dishRouter=require('./routers/admin/dish')
+app.use('/admin/dish',dishRouter);
