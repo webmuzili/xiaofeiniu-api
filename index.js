@@ -30,3 +30,9 @@ app.use('/admin',adminRouter);
 
 const dishRouter=require('./routers/admin/dish')
 app.use('/admin/dish',dishRouter);
+
+const settingsRouter=require('./routers/admin/setting')
+app.use('/admin/settings',settingsRouter);
+
+const tableRouter=require('./routers/admin/table')
+app.use('/admin/table',tableRouter);
